@@ -10,9 +10,17 @@ body {
   margin: 2px;
   border: 1px solid black;
   cursor: pointer;
-  user-select: none;
 }
-
 .selected {
   background-color: yellow;
+}
+.dragging {
+  opacity: 0.5;
+  position: absolute;
+}
+.selection-box {
+  position: absolute;
+  border: 1px dashed blue;
+  background-color: rgba(0, 0, 255, 0.1);
+  pointer-events: none;
 }

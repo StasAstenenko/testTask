@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.letter {
+  display: inline-block;
+  padding: 5px;
+  margin: 2px;
+  border: 1px solid black;
+  cursor: pointer;
+  user-select: none;
+}
+
+.selected {
+  background-color: yellow;
+}
